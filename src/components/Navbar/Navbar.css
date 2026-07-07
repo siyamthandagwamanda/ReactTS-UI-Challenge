@@ -26,7 +26,7 @@
 .nav-links a {
     color: #ffffff;
     font-size: 0.9rem;
-    transition: 0.3s;
+    transform: transition 0.3s;
 }
 
 .nav-links a:hover{

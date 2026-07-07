@@ -10,6 +10,38 @@
     width: 40%;
 }
 
-.small-title{
-    
+.section-title{
+    color: #00e5ff;
+    margin-bottom: 15px;
+}
+
+.services-text h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.services-text p{
+    color: #b0b0b0;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.services-text button{
+    background: #00e5ff;
+    color:black;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 5px;
+    transform: transition .3s;
+}
+
+.services-text button:hover{
+    background: white;
+}
+
+.services-grid{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px
 }

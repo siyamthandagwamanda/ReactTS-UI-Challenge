@@ -1,4 +1,5 @@
 .service-card{
+    width: 45%;
     background: #1b1b1b;
     padding: 30px;
     text-align: center;
@@ -20,10 +21,6 @@
     line-height: 1.6;
 }
 
-.service-card p{
-    color: #b0b0b0;
-    line-height: 1.6;
-}
 
 .service-card:hover{
     transform: translateY(-8px);
