@@ -40,7 +40,7 @@ function Services(){
 
             <div className="services-text">
 
-                <p className="small-title">
+                <p className="section-label">
                     OUR SERVICES
                 </p>
 

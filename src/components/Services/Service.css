@@ -1,0 +1,15 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap:60px;
+}
+
+.services-text{
+    width: 40%;
+}
+
+.small-title{
+    
+}
