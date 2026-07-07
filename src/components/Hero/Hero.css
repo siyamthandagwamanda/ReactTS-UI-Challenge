@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 80px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.welcome {
+    color: #00e5ff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero-text span {
+    color: #00e5ff;
+}
+
+.description {
+    color: #b0b0b0;
+    line-height: 1.8;
+    width: 80%;
+}
+
+.hero-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+}
