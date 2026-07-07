@@ -1,13 +1,13 @@
 import "./ServiceCard.css";
 
 
-type ServiceCardProps{
+interface ServiceCardProps {
     icon: string;
     title: string;
     description: string;
 }
 
-function ServiceCard({ icon , title , description } : ServiceCardProps){
+function ServiceCard({ icon , title , description, } : ServiceCardProps){
     return(
         <div className="service-card">
 
