@@ -4,8 +4,8 @@ import heroImage from "../../assets/images/hero.png";
 function Hero(){
     return (
         <section className="hero">
-
-            <div className="heo-text">
+            
+            <div className="hero-text">
                 <p className="welcome">WELCOME TO HYKROX</p>
                 <h1>
                     WE ARE <span>CREATIVE</span>

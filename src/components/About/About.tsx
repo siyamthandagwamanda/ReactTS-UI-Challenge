@@ -31,11 +31,11 @@ function About(){
                 <p className="about-label">ABOUT US</p>
 
                 <h2>WHO ARE <span>WE?</span></h2>
-
+                <br></br>
                 <p className="about-text">We are passionate developers who
                     build modern digital experiences for businesses.
                 </p>
-
+                <br></br>
                 <div className="feature-list">
                     {features.map((feature) => (
 

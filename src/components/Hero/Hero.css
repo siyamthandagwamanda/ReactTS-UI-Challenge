@@ -41,3 +41,57 @@
     width: 100%;
     max-width: 450px;
 }
+
+
+
+@media (max-width:992px){
+
+.hero{
+
+padding:60px 40px;
+
+}
+
+.hero-text h1{
+
+font-size:3rem;
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+padding:50px 20px;
+
+}
+
+.hero-text{
+
+width:100%;
+
+}
+
+.hero-image{
+
+width:100%;
+
+margin-top:40px;
+
+}
+
+.description{
+
+width:100%;
+
+}
+
+}
