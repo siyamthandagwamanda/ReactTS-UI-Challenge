@@ -12,14 +12,18 @@ function Hero(){
                     <br />
                     DESIGNERS
                 </h1>
+                <br></br>
+                <br></br>
+                
                 <p className="description">
                     We create modern, unique and professional designs that help brands stand out
                     and leave lasting impression.
                 </p>
-                <div className="hero-image">
+                
+            </div>
+            <div className="hero-image">
                     <img src={heroImage} alt="Designer" />
                 </div>
-            </div>
         </section>
     )
 }

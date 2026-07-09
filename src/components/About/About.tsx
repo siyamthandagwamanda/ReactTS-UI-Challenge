@@ -36,6 +36,7 @@ function About(){
                     build modern digital experiences for businesses.
                 </p>
                 <br></br>
+                <br></br>
                 <div className="feature-list">
                     {features.map((feature) => (
 
