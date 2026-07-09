@@ -36,11 +36,23 @@
     color: #00e5ff;
 }
 
-about-desciption{
+about-text p {
     color: #b0b0b0;
     line-height: 1.8;
     margin-bottom: 30px;
 }
+
+about-text p{
+    color: #00e5ff;
+}
+    
+/* .about-text p span{
+    color: #00e5ff;
+}
+
+.paragraph p span{
+    color: #00e5ff;
+} */
 
 .feature-list{
     display: flex;
