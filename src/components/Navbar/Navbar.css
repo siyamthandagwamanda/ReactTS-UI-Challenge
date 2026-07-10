@@ -25,12 +25,12 @@
 
 .nav-links a {
     color: #ffffff;
-    font-size: 1.9rem;
+    font-size: 1.2rem;
     transform: transition 0.5s;
 }
 
 .nav-links a:hover{
-    color: #7700ff;
+    color: #7104ee;
 }
 
 .search-icon {
@@ -39,10 +39,8 @@
     cursor: pointer;
 }
 
-@media (max-width: 1200px){
-    .navbar{
-        .nav-links a:hover{
-          color: #352c88;
-        }
+@media (max-width: 1200px) {
+    .nav-links a:hover {
+        color: #352c88;
     }
 }
