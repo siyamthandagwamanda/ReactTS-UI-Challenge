@@ -87,7 +87,7 @@
         font-size: 1.1rem;
     }
 
-    @media (max-width: 488){
+    @media (max-width: 200){
         .navbar{
             padding: 15px;
         }
