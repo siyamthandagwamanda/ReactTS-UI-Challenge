@@ -20,5 +20,45 @@
 }
 
 
+@media (max-width: 1023px){
+    .footer{
+        padding: 40px 20px;
+    }
 
+    .footer p{
+        font-size: 0.95rem;
+    }
 
+    .copyright{
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 767px){
+    .footer{
+        padding: 35px 20px;
+    }
+
+    .footer p{
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .copyright{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px){
+    .footer{
+        padding: 30px 15px;
+    }
+
+    .footer p{
+        font-size: 0.85rem;
+    }
+
+    .copyright{
+        font-size: 0.75rem;
+    }
+}
