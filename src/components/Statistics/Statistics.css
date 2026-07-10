@@ -7,7 +7,6 @@
     background: #111111;
 }
 
-
 @media (max-width: 1023px){
     .statistics{
         grid-template-columns: repeat(2, 1fr);
@@ -27,6 +26,6 @@
 @media (max-width: 200px){
     .statistics{
         padding: 40px 15px;
-        gap: 15px;
+        gap:15px;
     }
 }
