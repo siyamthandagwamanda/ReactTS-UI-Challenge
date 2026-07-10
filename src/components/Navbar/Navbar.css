@@ -21,13 +21,12 @@
 .nav-links {
     display: flex;
     gap: 35px;
-    font-size: 1.5rem;
 }
 
 .nav-links a {
     color: #ffffff;
-    font-size: 1.7rem;
-    transform: transition 0.3s;
+    font-size: 1.9rem;
+    transform: transition 0.5s;
 }
 
 .nav-links a:hover{
