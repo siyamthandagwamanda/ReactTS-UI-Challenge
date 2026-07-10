@@ -25,12 +25,12 @@
 
 .nav-links a {
     color: #ffffff;
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     transform: transition 0.5s;
 }
 
 .nav-links a:hover{
-    color: #7104ee;
+    color: #00e5ff;
 }
 
 .search-icon {
