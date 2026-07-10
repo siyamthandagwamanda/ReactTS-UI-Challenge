@@ -32,9 +32,10 @@ function About(){
 
                 <h2>WHO ARE <span>WE?</span></h2>
                 <br></br>
-                <p className="about-text">We are passionate developers who
+                <p>We are <span>passionate developers</span> who
                     build modern digital experiences for businesses.
                 </p>
+                <br></br>
                 <br></br>
                 <div className="feature-list">
                     {features.map((feature) => (

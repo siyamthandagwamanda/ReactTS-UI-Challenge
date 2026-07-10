@@ -1,4 +1,40 @@
+/* 
+ * Background watermark styling assisted by (AI).
+ * Layout and implementation 
+ */
+
+
 h1{
     text-align: center;
     margin-top: 100px;
+}
+
+.hykrox-label{
+    position: relative;
+    overflow: hidden;
+}
+
+.hykrox-label::before{
+    content: "HYKROX";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+
+    font-size: clamp(10rem, 28vw, 22rem);
+    font-weight: 600;
+    letter-spacing: 150px;
+
+    color: rgba(4, 205, 255, 0.03);
+
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+
+    z-index: 0;
+}
+
+.page-content > *{
+    position: relative;
+    z-index: 1;
 }

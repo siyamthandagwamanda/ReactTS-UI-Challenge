@@ -1,11 +1,11 @@
-.feature-card{
+.feature-card {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
+    gap: 18px;
 }
 
 .feature-card img {
-    width: 45px;
+    width: 55px;
 }
 
 .feature-card h3 {
@@ -13,6 +13,6 @@
 }
 
 .feature-card p {
-    color: #b0b0b0;
-    line-height: 1.6;
+    color: #bbb;
+    line-height: 1.7;
 }

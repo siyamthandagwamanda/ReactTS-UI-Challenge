@@ -2,15 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0px;
+    margin-bottom: -60px;
     padding: 80px;
     gap:60px;
+    background: #111111;
 }
 
 .services-text{
     width: 40%;
 }
 
-.section-title{
+.section-label{
     color: #00e5ff;
     margin-bottom: 15px;
 }
@@ -20,10 +23,15 @@
     margin-bottom: 15px;
 }
 
+.services-text span{
+    color: #00e5ff;
+}
+
 .services-text p{
     color: #b0b0b0;
     line-height: 1.8;
     margin-bottom: 25px;
+    font-weight: 900;
 }
 
 .services-text button{
@@ -45,4 +53,5 @@
     flex-wrap: wrap;
     gap:25px
 }
+
 
