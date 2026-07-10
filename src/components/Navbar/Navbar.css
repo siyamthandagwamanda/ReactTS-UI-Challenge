@@ -12,18 +12,18 @@
     font-size: 2rem;
 }
 
-.logo p {
+.logo p{
     color: white;
     font-size: 0.7rem;
     margin-top: 3px;
 }
 
-.nav-links {
+.nav-links{
     display: flex;
     gap: 35px;
 }
 
-.nav-links a {
+.nav-links a{
     color: #ffffff;
     font-size: 1.0rem;
     transform: transition 0.5s;
@@ -33,9 +33,84 @@
     color: #00e5ff;
 }
 
-.search-icon {
+.search-icon{
     color: #00e5ff;
     font-size: 1.2rem;
     cursor: pointer;
 }
 
+@media (max-width: 1023px){
+    .navbar{
+        padding: 20px 40px;
+    }
+
+    .nav-links{
+        gap: 20px;
+    }
+
+    .logo h2{
+        font-size: 1.7rem;
+    }
+
+    .nav-links a{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar{
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .logo h2{
+        font-size: 1.5rem;
+    }
+
+    .logo p{
+        font-size: 0.65rem;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:15px
+    }
+
+    .nav-links a{
+        font-size: 0.9rem;
+    }
+
+    .search-icon{
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 488){
+        .navbar{
+            padding: 15px;
+        }
+
+        .logo h2{
+            font-size: 1.3rem;
+        }
+
+        .logo p{
+            font-size: 0.6rem;
+        }
+
+        .nav-links{
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .nav-links a{
+            font-size: 0.85rem;
+        }
+
+        .search-icon{
+            font-size: 1rem;
+        }
+    }
+}
