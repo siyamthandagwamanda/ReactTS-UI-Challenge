@@ -50,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .hero-image img {
@@ -58,4 +59,6 @@
     height: auto;
     object-fit: contain;
     border-radius: 40px;
+    box-shadow:  26px 18px 18px -14px rgba(14,248,209,4);
+
 }

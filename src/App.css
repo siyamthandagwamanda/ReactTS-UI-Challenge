@@ -16,14 +16,14 @@ h1{
 
 .hykrox-label::before{
     content: "HYKROX";
-    position: absolute;
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
 
     font-size: clamp(10rem, 28vw, 22rem);
     font-weight: 600;
-    letter-spacing: 150px;
+    letter-spacing: 190px;
 
     color: rgba(4, 205, 255, 0.03);
 

@@ -23,7 +23,7 @@ function Hero(){
             </div>
             <div className="hero-image">
                     <img src={heroImage} alt="Designer" />
-                </div>
+            </div>
         </section>
     )
 }
