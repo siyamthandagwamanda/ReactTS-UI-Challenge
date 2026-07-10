@@ -22,7 +22,7 @@ function Statistics(){
         {
             icon: awardIcon,
             number: "15+",
-            title: "Team Members"
+            title: "Team Awards"
         },
 
         {
