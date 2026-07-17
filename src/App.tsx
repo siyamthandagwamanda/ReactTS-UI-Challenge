@@ -10,16 +10,14 @@ function App(){
     return (
         
         <>
-            <Navbar />
             <main className="hykrox-label">
+               <Navbar />
                <Hero />
                <Services />
                <About />
                <Statistics />
                <Footer />
             </main>
-            
-            <Footer />
         </>
     );
 }
